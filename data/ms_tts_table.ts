@@ -1,4 +1,5 @@
-import { engine } from "./csvs.ts";
+import { engine } from "./deps.ts";
+
 export const data = `Language,Locale,Gender,Voice name,Style support
 Afrikaans (South Africa),af-ZA,Female,af-ZA-AdriNeural,General
 Afrikaans (South Africa),af-ZA,Male,af-ZA-WillemNeural,General
@@ -354,4 +355,4 @@ Welsh (United Kingdom),cy-GB,Male,cy-GB-AledNeural,General
 Zulu (South Africa),zu-ZA,Female,zu-ZA-ThandoNeural,General
 Zulu (South Africa),zu-ZA,Male,zu-ZA-ThembaNeural,General`;
 
-export const search = await engine(data);
+export default await engine(data);

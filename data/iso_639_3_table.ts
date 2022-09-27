@@ -1,4 +1,4 @@
-import { engineFromTsv } from "./csvs.ts";
+import { engineFromTsv } from "./deps.ts";
 
 export default engineFromTsv(
 	`Id	Part2B	Part2T	Part1	Scope	Language_Type	Ref_Name	Comment

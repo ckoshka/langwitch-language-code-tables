@@ -1,4 +1,5 @@
-import { engineFromStrings } from "./csvs.ts";
+import { engineFromStrings } from "./deps.ts";
+
 export default engineFromStrings([
 	"ASCII",
 	"Accents",

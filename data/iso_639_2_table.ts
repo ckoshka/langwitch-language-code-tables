@@ -1,4 +1,4 @@
-import { engine } from "./csvs.ts";
+import { engine } from "./deps.ts";
 
 const data =
 	`639_2_1,639_3_2,639_5_3,639_1,Name,Scope,Type,NativeName,OtherNames

@@ -1,4 +1,4 @@
-import { engine } from "./csvs.ts";
+import { engine } from "./deps.ts";
 
 export default await engine(
 	`ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Family,Subfamily,Genus,GenusIcon,ISO_codes,Samples_100,Samples_200,Country_ID,Source
